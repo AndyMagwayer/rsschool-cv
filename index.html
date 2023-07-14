@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal CV</title>
+    <!-- SEO -->
+    <!-- SEO FIN -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Fondo detras con efecto blur -->
+    <div class="body__overlay"></div>
+    <img src="https://www.instagram.com/p/Crky4RwLdW8txzyWmRTLEyUuFQ7J9oSSQjcRU00/?igshid=MzRlODBiNWFlZA==" alt="mypicture" class="body__img">
+
+    <div class="main-content">
+        <!-- Parte izquierda del cv -->
+        <wrapper class="main-content__left">
+            <container class="user-profile">
+                <img class="user-profile__bg" src="https://hover-imamg-itlabs-by-maga.netlify.app/src/assets/myss.PNG" alt="fondo de pantalla">
+                <img class="user-profile__img" src="https://hover-imamg-itlabs-by-maga.netlify.app/src/assets/bg-image2.PNG" > <!-- Sustituir fondo detras -->
+                <figcaption class="user-profile__info">
+                    <h1 class="user-profile__name">Andy Magwayer</h1>
+                    <p class="user-profile__ocupation"><strong>FrontEnd DEveloper</strong></p> <!-- Sustituir Dedicación -->
+                    <p class="user-profile__tagline"><em>freshman</em></p> <!-- Sustituir Tagline -->
+                </figcaption>
+            </container>
+        </wrapper>
+
+        <!-- Parte derecha - contenido principal -->
+        <main class="main-content__right">
+            <input type="radio" name="tab" id="tab-1" class="tab-1 welcome" checked>
+            <input type="radio" name="tab" id="tab-2" class="tab-2 profile">
+            <input type="radio" name="tab" id="tab-3" class="tab-3 resume">
+            <input type="radio" name="tab" id="tab-4" class="tab-4 portfolio">
+            <input type="radio" name="tab" id="tab-5" class="tab-5 blog">
+            <input type="radio" name="tab" id="tab-6" class="tab-6 contact">
+
+            <nav class="navbar">
+                <ul class="navbar__menu" onclick="currentTab(event)" role="list">
+                    <li class="navbar__item" role="listitem">
+                        <label for="tab-1" class="navbar__link active" role="label">
+                            <span>welcome</span>
+                            <i class="fas fa-home"></i>
+                        </label>
+                    </li>
+                    <li class="navbar__item" role="listitem">
+                        <label for="tab-2" class="navbar__link" role="label">
+                            <span>profile</span>
+                            <i class="fas fa-user"></i>
+                        </label>
+                    </li>
+                    <li class="navbar__item" role="listitem">
+                        <label for="tab-3" class="navbar__link" role="label">
+                            <span>resume</span>
+                            <i class="fas fa-file-alt"></i>
+                        </label>
+                    </li>
+                    <li class="navbar__item" role="listitem">
+                        <label for="tab-4" class="navbar__link" role="label">
+                            <span>portfolio</span>
+                            <i class="fas fa-briefcase"></i>
+                        </label>
+                    </li>
+                    <li class="navbar__item" role="listitem">
+                        <label for="tab-5" class="navbar__link" role="label">
+                            <span>blog</span>
+                            <i class="fas fa-blog"></i>
+                        </label>
+                    </li>
+                    <li class="navbar__item" role="listitem">
+                        <label for="tab-6" class="navbar__link" role="label">
+                            <span>contact</span>
+                            <i class="navbar__link-icon fas fa-envelope"></i>
+                        </label>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="tab-content-1">
+                <section class="welcome">
+                    <h3>Welcome</h3>
+                </section>
+            </div>
+
+            <div class="tab-content-2">
+                <section class="profile">
+                    <h3>Profile</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                </section>
+            </div>
+
+            <div class="tab-content-3">
+                <section class="resume">
+                    <h3>Resume</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                </section>
+            </div>
+
+            <div class="tab-content-4">
+                <section class="portfolio">
+                    <h3>Portfolio</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                </section>
+            </div>
+
+            <div class="tab-content-5">
+                <section class="blog">
+                    <h3>Blog</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                </section>
+            </div>
+
+            <div class="tab-content-6">
+                <section class="contact">
+                    <h3>Contact</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt quam tenetur in fuga harum nostrum et
+                        cupiditate libero cum quia blanditiis inventore aut, commodi atque obcaecati possimus. Doloribus saepe mollitia vel
+                        a esse assumenda, facilis incidunt beatae ducimus quis ipsum magnam consequatur unde debitis deserunt animi aut
+                        excepturi error?
+                    </p>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        
+        function currentTab(e) {
+            const el = document.querySelector('.active');
+            if (el !== null) {
+                el.classList.remove('active');
+            }
+            e.target.className = 'navbar__link active';
+        }
+
+    </script>
+
+</body>
+</html>
